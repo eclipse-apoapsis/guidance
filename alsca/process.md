@@ -1,0 +1,13 @@
+Engineering level process consists of two parts:
+- Identification 
+    - Input: Development and Build Artifacts
+    - Goal: Fast Feedback - Full transparency
+    - Component Identification
+    - Metadata Collection
+    - Output: SBOM
+- Fulfillment
+    - Input: SBOM and Business context
+    - Goal: Always potentially shipable
+    - Metadata Analysis (e.g. Obligation Identification, Exploit Analysis)
+    - Measures OR Clearance declaration
+    - Output: Reports + Clearance + Compliance Bundle

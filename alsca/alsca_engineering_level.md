@@ -1,0 +1,6 @@
+---
+title:
+author:
+rights:
+lang:
+---
