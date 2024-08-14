@@ -1,3 +1,4 @@
+# Software Component Lifecycle Process
 *This document is a template for a process description and needs to be adapted to a specific organization before usage. Especially the parts put in angle brackets "< >".*
 
 # Process Objectives
@@ -9,6 +10,8 @@ Ensuring transparent open source software usage by fulfilling the requirements o
 < please enter your organization specific scope of this process >
 
 # Process Description
+
+![Process High Level](./process_high_level.jpg)  
 
 The Software Component Lifecycle consist of four elements. The distribution check is the major gateway to ensure that only qualified software is released. The other elements only support this effort.
 
@@ -24,12 +27,22 @@ The Software Component Lifecycle consist of four elements. The distribution chec
 # Roles
 
 - < Management >
-- < Open Source Office: The Open Source Office defines the Open Source Management requirements necessary for a distribution check. The Open Source Office is informed about new Open Source Software Integration Checks. The Open Source Office provides the organization specific configuration of the Open Source Management Review system. The Open Source Office need to approve Non-standard Open Source Management concepts. >
+- < Open Source Office: 
+    - The Open Source Office defines the Open Source Management requirements necessary for a distribution check. 
+    - The Open Source Office is informed about new Open Source Software Integration Checks. 
+    - The Open Source Office provides the organization specific configuration of the Open Source Management Review system. 
+    - The Open Source Office need to approve Non-standard Open Source Management concepts. >
 - < Responsible Person for a product >
-- Development Team: Evaluate new software components and request integration check, integrate software components in conformance with the guidelines
-- < Open Source Management Representative: The Open Source Management Representative ensures that all relevant tasks for the software Distribution Check are processed prior to release. The Open Source Management Representative monitors the Open Source Management reviews and supports the development team in resolving and dispatching issues. >
-- Source Code Auditor: The Source Code Auditor supports the review and analysis of the project source code review results.
-- Curator (Curation team): The Curator supports the metadata curation of identified components with missing or unclear metadata. The Curation team maintains the underlying components metadatabase of the Open Source Management Review system.
+- Development Team: 
+    - Evaluate new software components and request integration check, integrate software components in conformance with the guidelines
+- < Open Source Management Representative: 
+    - The Open Source Management Representative ensures that all relevant tasks for the software Distribution Check are processed prior to release. 
+    - The Open Source Management Representative monitors the Open Source Management reviews and supports the development team in resolving and dispatching issues. >
+- Source Code Auditor: 
+    - The Source Code Auditor supports the review and analysis of the project source code review results.
+- Curator (Curation team): 
+    - The Curator supports the metadata curation of identified components with missing or unclear metadata. 
+    - The Curation team maintains the underlying components metadatabase of the Open Source Management Review system.
 
 # Process Details
 
@@ -50,7 +63,7 @@ A Distribution Check requires the successful completion of the following tasks a
 
 The following picture gives and overview of the tasks and their sequence:
 
-tbd - picture
+![Process Sequences](./process_sequences.jpg)
 
 # Deviations
 This is the standard process to ensure open source compliance in the organization. However, because of the variety of activities of the organization we also have various special situations where other approaches might be more efficient. Therefore it is possible to design a different process for fulfilling the requirements of the organization's Open Source Policy. The Non-standard template (attachment A2.4) need to be used.
