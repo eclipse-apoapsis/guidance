@@ -105,7 +105,11 @@ Part B) Software and Open Source Management
         - 4.3.1. Automated SCA in CI/CD pipeline
             - 4.3.1.1. OSS Review Toolkit
 
+# License
+SPDX-License-Identifier: CC-BY-4.0  
+Eclipse Apoapsis guidance content is licensed under the Creative Commons Attribution License 4.0 (CC-BY-4.0).
 
+For building the website, the docusaurus framework (https://docusaurus.io/) is used under the MIT-License.
 
 
 
