@@ -4,32 +4,38 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Process Blueprints',
+    Svg: require('@site/static/img/process_blueprint.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Eclipse Apoapsis consolidates the requirements from the tooling side, like fast scan times or 
+        configuration as code, and the requirements from the institutionalized operations side in medium 
+        to large organizations, like access control or organization specific structures.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Reference Implementation',
+    Svg: require('@site/static/img/reference.svg').default, //replaced undraw_docusaurus_tree.svg
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The Eclipse Apoapsis project's ORT Server provides a concrete solution for a blueprint, where 
+        a central SCA pipeline is used to cover a large range of project setups.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Community based',
+    Svg: require('@site/static/img/community.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The terminology is based on the capability map created by the Open Chain Automation Workgroup 
+        in the context of Open Source Management. It is planned to incrementally work out the 
+        API-specification bottom-up, starting from the reference implementation. Additionally, it is 
+        intended to collect blueprints (e.g. central pipeline, decentral SBOM generation with centralized 
+        metadata analysis, semi-automated analysis with central metadatabase) and use cases (e.g. security 
+        vulnerability monitoring, identification of TOP100 used components in the organization) that address 
+        the generic problemspaces observed in the community.
       </>
     ),
   },
