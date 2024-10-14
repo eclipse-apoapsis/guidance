@@ -86,7 +86,6 @@ const config = {
             position: 'left',
             label: 'Guidance',
           },
-          {to: '/docs/intro', label: 'Community', position: 'left'},
           {
             href: 'https://github.com/eclipse-apoapsis',
             label: 'GitHub',
