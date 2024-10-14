@@ -109,16 +109,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://github.com/eclipse-apoapsis',
-              },
-              {
-                label: 'Discord',
-                href: 'https://github.com/eclipse-apoapsis',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://github.com/eclipse-apoapsis',
+                label: 'Matrix Chat',
+                href: 'https://matrix.to/#/#apoapsis:matrix.eclipse.org',
               },
             ],
           },
