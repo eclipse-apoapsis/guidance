@@ -1,4 +1,4 @@
-# guidance
+# <img alt="Eclipse Apoapsis Guidace" src="website/static/img/logo.svg" width="10%"> Eclipse Apoapsis - Guidance
 The guidance for the Open Source Component Management process consists of a generic architecture description, usage blueprints, a concept of the abstraction layer and a collection of use cases. It enables you to quickly match your organization's needs with available solutions and jump-start your process definition by providing templates.
 
 # Scope
@@ -15,6 +15,3 @@ SPDX-License-Identifier: CC-BY-4.0
 Eclipse Apoapsis guidance content is licensed under the Creative Commons Attribution License 4.0 (CC-BY-4.0).
 
 For building the website, the docusaurus framework (https://docusaurus.io/) is used under the MIT-License.
-
-
-
