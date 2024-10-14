@@ -77,7 +77,7 @@ const config = {
         title: 'Eclipse Apoapsis',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/eclipse_apoapsis.jpg', // replaced logo.svg
+          src: 'img/logo.svg',
         },
         items: [
           {
