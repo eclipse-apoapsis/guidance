@@ -87,6 +87,11 @@ const config = {
             label: 'Guidance',
           },
           {
+            href: 'https://eclipse-apoapsis.github.io/ort-server',
+            label: 'ORT Server',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/eclipse-apoapsis',
             label: 'GitHub',
             position: 'right',
@@ -111,6 +116,10 @@ const config = {
               {
                 label: 'Matrix Chat',
                 href: 'https://matrix.to/#/#apoapsis:matrix.eclipse.org',
+              },
+              {
+                label: 'ORT Server',
+                href: 'https://eclipse-apoapsis.github.io/ort-server',
               },
             ],
           },
