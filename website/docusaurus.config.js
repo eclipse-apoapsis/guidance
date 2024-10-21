@@ -77,7 +77,7 @@ const config = {
         title: 'Eclipse Apoapsis',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/eclipse_apoapsis.jpg', // replaced logo.svg
+          src: 'img/logo.svg',
         },
         items: [
           {
@@ -86,7 +86,6 @@ const config = {
             position: 'left',
             label: 'Guidance',
           },
-          {to: '/docs/intro', label: 'Community', position: 'left'},
           {
             href: 'https://github.com/eclipse-apoapsis',
             label: 'GitHub',
@@ -110,16 +109,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://github.com/eclipse-apoapsis',
-              },
-              {
-                label: 'Discord',
-                href: 'https://github.com/eclipse-apoapsis',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://github.com/eclipse-apoapsis',
+                label: 'Matrix Chat',
+                href: 'https://matrix.to/#/#apoapsis:matrix.eclipse.org',
               },
             ],
           },
