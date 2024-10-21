@@ -6,7 +6,7 @@ sidebar_position: 7
 *to describe the development phase in more detail*
 
 - Component Lifecycle Phases
-    - Integration
+    - [Integration](A1_integration_approval/index.md)
     - Development
     - Distribution
     - Maintenance
