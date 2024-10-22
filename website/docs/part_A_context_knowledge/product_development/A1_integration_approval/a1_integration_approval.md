@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+title: A1 Integration Approval
+---
+
 <!-- Copyright (c) 2024 Contributors to the Eclipse Foundation
 
 These materials are made available under the
