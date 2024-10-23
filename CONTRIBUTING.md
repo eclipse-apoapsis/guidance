@@ -28,13 +28,27 @@ https://www.eclipse.org/projects/handbook/#resources-commit
 
 * Fork the repository on GitHub.
 * Create a new branch for your changes.
-* Install docusaurus: https://docusaurus.io/docs/installation 
 * Make your changes following the code style guide (see Code Style Guide section above).
 * When you create new files make sure you include a proper license header at the top of the file (see License Header section below).
-* Test the docusaurus website locally by 
-    - npm run build and
-    - npm run serve  
-    in the "website" subfolder
+* The Docusaurus website should be tested locally. To do so:
+  * requirements:
+
+  ```text
+  node >= 18.0.0
+  ```
+
+  * in the /website subdirectory, install the node dependencies by running:
+
+  ```bash
+  npm install
+  ```
+
+  * then run:
+
+  ```bash
+  npm run build && npm run serve
+  ```
+
 * Commit your changes into that branch.
 * Use descriptive and meaningful commit messages. Start the first line of the commit message with the issue number and title e.g. `[#9517] Fixed typo in the description`.
 * Squash multiple commits that are related to each other semantically into a single one.
@@ -75,6 +89,17 @@ For content in Markdown / React
 # SPDX-License-Identifier: CC-BY-4.0
 ```
 Please adjust the comment character to the specific file format.
+
+**Note**: Adding a Copyright header intereferes with the way Docusaurus determines the default title of the page.
+To set a custom title, use the page metadata functionality with the syntax
+
+```text
+---
+title: [page-title]
+---
+```
+
+at the top of the file.
 
 ## Submitting the Changes
 
