@@ -74,7 +74,7 @@ Please make sure any file you newly create contains a proper license header like
 
 For content in Markdown / React
 ```
-# Copyright (c) <year> Contributors to the Eclipse Foundation
+# SPDX-FileCopyrightText: Copyright (C) <year> Contributors to the Eclipse Foundation
 #
 # These materials are made available under the
 # terms of the Creative Commons Attribution 4.0 International Public License which is available at
