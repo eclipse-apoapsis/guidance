@@ -3,7 +3,8 @@ sidebar_position: 1
 title: A1 Integration Approval
 ---
 
-<!-- Copyright (c) 2024 Contributors to the Eclipse Foundation
+<!-- 
+SPDX-FileCopyrightText: Copyright (C) 2024 Contributors to the Eclipse Foundation
 
 These materials are made available under the
 terms of the Creative Commons Attribution 4.0 International Public License which is available at
@@ -15,7 +16,8 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations
 under the License.
 
-SPDX-License-Identifier: CC-BY-4.0 -->
+SPDX-License-Identifier: CC-BY-4.0 
+-->
 
 # A1 Integration Approval
 
