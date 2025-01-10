@@ -1,0 +1,37 @@
+name: REUSE Compliance Check
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  reuse-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install reuse tool
+        run: pip install reuse==5.0.2
+      - name: Run reuse-lint-file on changed website/docs files
+        id: reuse-lint
+        continue-on-error: true
+        run: |
+          changed_files=$(git diff --cached --name-only | grep '^website/docs/')
+          if [[ -n "$changed_files" ]]; then
+            output=$(reuse lint-file $changed_files)
+            echo "$output"
+            echo "::set-output name=output::$output"
+          fi
+
+      - name: Check for missing license and copyright statements
+        if: contains(steps.reuse-lint.outputs.output, 'no license identifier') || contains(steps.reuse-lint.outputs.output, 'no copyright notice')
+        run: |
+          echo "::error title=REUSE Compliance Failure::Missing license or copyright information. See the output of the previous step for details."
+          exit 1
