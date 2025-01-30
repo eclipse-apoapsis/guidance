@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Generic Supply Chain Model
 ---
 
 <!--

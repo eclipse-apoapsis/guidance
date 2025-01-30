@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: Generic Architecture for Software Management on Portfolio Level
 ---
 
 <!--
