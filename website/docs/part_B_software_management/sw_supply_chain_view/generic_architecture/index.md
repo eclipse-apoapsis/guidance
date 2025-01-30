@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: Generic Software Supply Chain Architecture
 ---
 
 <!--

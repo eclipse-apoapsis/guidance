@@ -1,3 +1,7 @@
+---
+title: Blueprints for Product Dashboards
+---
+
 <!--
 SPDX-FileCopyrightText: Copyright (C) 2025 Contributors to the Eclipse Foundation
 

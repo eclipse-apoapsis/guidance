@@ -1,3 +1,7 @@
+---
+title: Software Component Lifecycle Process
+---
+
 <!--
 SPDX-FileCopyrightText: Copyright (C) 2025 Contributors to the Eclipse Foundation
 
