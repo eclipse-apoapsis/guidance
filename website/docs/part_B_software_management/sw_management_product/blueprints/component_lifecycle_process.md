@@ -19,8 +19,6 @@ SPDX-License-Identifier: CC-BY-4.0
 -->
 
 # Software Component Lifecycle Process
-[//]: # (SPDX-FileCopyrightText: 2024 Eclipse Apoapsis Contributors)  
-[//]: # (SPDX-License-Identifier: CC-BY-4.0)  
 
 *This document is a template for a process description and needs to be adapted to a specific organization before usage. Especially the parts put in angle brackets "< >".*
 
