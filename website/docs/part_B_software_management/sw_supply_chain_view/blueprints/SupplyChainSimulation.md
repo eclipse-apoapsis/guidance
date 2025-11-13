@@ -1,6 +1,5 @@
 ---
-sidebar_position: 1
-title: Software Supply Chain View
+title: Public available supply chain simulation
 ---
 
 <!--
@@ -19,6 +18,12 @@ under the License.
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Software Supply Chain View
+# Blueprints for public available supply chain simulation
 
-The Software Supply Chain View represents the highest level perspective.
+Potential setups:
+
+- WIP: [Public OSS based Supply Chain Simulation](PublicOSSbasedSupplyChainSimulation.md) using public Open Source dummy repositories and public instances of Open Source SCA and SBOM Management tools.
+- OSS based Supply Chain Simulation using local public Open Source dummy repositories and local instances of Open Source SCA and SBOM Management tools.
+- ...
+
+WIP - blueprints are to be detailed - please contribute
