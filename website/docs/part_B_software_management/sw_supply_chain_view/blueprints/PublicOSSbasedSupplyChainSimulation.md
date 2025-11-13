@@ -48,8 +48,8 @@ Concrete example used for:
 
 Concrete example used for: 
 - A) https://github.com/Open-Source-Compliance/JAVA_Maven-Dummy/tree/demo/case_001_vulnerability => adds a vulnerable dependency
-- B) WIP => will use a Sandbox Org in the public [OCTETT](occtet.eu) Test-Server
-- C) WIP => the report will be publicly available in the public [OCTETT](occtet.eu) Test-Server
+- B) WIP => will use a Sandbox Org in the public [OCTETT](https://occtet.eu/) Test-Server
+- C) WIP => the report will be publicly available in the public [OCTETT](https://occtet.eu/) Test-Server
 
 # Part 3 - Manufacturer
 - A) the simulation uses the SBOM provided in 2 D) as input to simulate a delivery from a supplier    
