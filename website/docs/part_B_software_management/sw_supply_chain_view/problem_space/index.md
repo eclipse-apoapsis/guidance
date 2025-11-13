@@ -21,6 +21,6 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Problem Space
 
-As a [Regulator] I want to have supply chain transparency to that the conformance to the risk mitigating standards and regulations may be ensured.
+As a [Regulator] I want to have supply chain transparency so that the conformance to the risk mitigating standards and regulations may be ensured.
 
 As a [Community] for Supply Chain Risk Management we want to have [Supply Chain Simulation](../blueprints/SupplyChainSimulation.md) so that we can have a public reference for publicly showcasing and training special supply chain cases that involve more than one link in the supply chain.
