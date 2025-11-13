@@ -29,8 +29,8 @@ The basic simulated supply chain is meant to be as simple as possible and consis
 
 # Part 1 - Software vendor
 - A) The simulation uses the [Dummy Repositories from the OpenChain Tooling group]( https://github.com/Open-Source-Compliance/Sharing-creates-value/tree/master/Tooling-Landscape/Dummy_Repositories)
-- B) The dependency-tree can be shown in the [Github Dependency graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph)</br>
-*for simplicity Github with its onboard equipment was used instead of insisting on complete open source setup - so it is publicly available but not Open Source => Improvement potential* </br>
+- B) The dependency-tree can be shown in the [Github Dependency graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph)   
+*for simplicity Github with its onboard equipment was used instead of insisting on complete open source setup - so it is publicly available but not Open Source => Improvement potential*    
 *Hint: You can use a local [ORT-installation](https://oss-review-toolkit.org/ort/docs/getting-started/installation) as alternative.*
 
 Concrete example used for:
@@ -52,7 +52,7 @@ Concrete example used for:
 - C) WIP => the report will be publicly available in the public [OCTETT](occtet.eu) Test-Server
 
 # Part 3 - Manufacturer
-- A) the simulation uses the SBOM provided in 2 D) as input to simulate a delivery from a supplier </br>
+- A) the simulation uses the SBOM provided in 2 D) as input to simulate a delivery from a supplier    
 *Hint: The delivery of Software/Binaries is actively ignored for simplification.*
 - B) the simulation uses a local [OWASP DependencyTrack](https://dependencytrack.org/#download)-installation as Vulnerability Monitoring Dashboard for incoming supplier SBOMs. A project is created and the CycloneDX SBOM is uploaded. The analysis provides transparency about all dependencies and findings.
 - C) Potential extensions:
