@@ -29,8 +29,8 @@ The basic simulated supply chain is meant to be as simple as possible and consis
 
 # Part 1 - Software vendor
 - A) The simulation uses the [Dummy Repositories from the OpenChain Tooling group]( https://github.com/Open-Source-Compliance/Sharing-creates-value/tree/master/Tooling-Landscape/Dummy_Repositories)
-- B) The dependency-tree can be shown in the [Github Dependency graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph)<br>
-*for simplicity Github with its onboard equipment was used instead of insisting on complete open source setup - so it is publicly available but not Open Source => Improvement potential* <br>
+- B) The dependency-tree can be shown in the [Github Dependency graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph)</br>
+*for simplicity Github with its onboard equipment was used instead of insisting on complete open source setup - so it is publicly available but not Open Source => Improvement potential* </br>
 *Hint: You can use a local [ORT-installation](https://oss-review-toolkit.org/ort/docs/getting-started/installation) as alternative.*
 
 Concrete example used for:
