@@ -52,7 +52,7 @@ Concrete example used for:
 - C) WIP => the report will be publicly available in the public [OCTETT](occtet.eu) Test-Server
 
 # Part 3 - Manufacturer
-- A) the simulation uses the SBOM provided in 2 D) as input to simulate a delivery from a supplier <br>
+- A) the simulation uses the SBOM provided in 2 D) as input to simulate a delivery from a supplier </br>
 *Hint: The delivery of Software/Binaries is actively ignored for simplification.*
 - B) the simulation uses a local [OWASP DependencyTrack](https://dependencytrack.org/#download)-installation as Vulnerability Monitoring Dashboard for incoming supplier SBOMs. A project is created and the CycloneDX SBOM is uploaded. The analysis provides transparency about all dependencies and findings.
 - C) Potential extensions:
