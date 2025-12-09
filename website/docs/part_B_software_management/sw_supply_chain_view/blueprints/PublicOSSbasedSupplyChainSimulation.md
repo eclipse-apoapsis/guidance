@@ -29,9 +29,11 @@ The basic simulated supply chain is meant to be as simple as possible and consis
 
 # Part 1 - Software vendor
 - A) The simulation uses the [Dummy Repositories from the OpenChain Tooling group]( https://github.com/Open-Source-Compliance/Sharing-creates-value/tree/master/Tooling-Landscape/Dummy_Repositories)
-- B) The dependency-tree can be shown in the [Github Dependency graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph)   
+- B) The dependency-tree can be shown in the [Github Dependency graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph)    
+*Hint: You can use a local [ORT-installation](https://oss-review-toolkit.org/ort/docs/getting-started/installation) as alternative to create the dependency graph.*
+
 *for simplicity Github with its onboard equipment was used instead of insisting on complete open source setup - so it is publicly available but not Open Source => Improvement potential*    
-*Hint: You can use a local [ORT-installation](https://oss-review-toolkit.org/ort/docs/getting-started/installation) as alternative.*
+
 
 Concrete example used for:
 - A) https://github.com/Open-Source-Compliance/JAVA_Maven-Dummy
@@ -41,24 +43,28 @@ Concrete example used for:
 
 # Part 2 - Software integrator
 - A) The simulation uses a "demo" branch in the Dummy Repository to [simulate a modification](https://github.com/Open-Source-Compliance/JAVA_Maven-Dummy/blob/doc/java_maven-dummy-manipulation.md)
-- B) The simulation uses an instance of the [ORT-Server](https://eclipse-apoapsis.github.io/ort-server/) as [ORT](https://github.com/oss-review-toolkit/ort)-based SCA tooling to analyze the repository and generate the SBOM from the Dummy Repository  
+- B) The simulation uses the instance of the [ORT-Server](https://eclipse-apoapsis.github.io/ort-server/) from the [OCCTET Project](https://occtet.eu/) as [ORT](https://github.com/oss-review-toolkit/ort)-based SCA tooling to analyze the repository and generate the SBOM from the Dummy Repository  
 *Hint: You can use a local [ORT-installation](https://oss-review-toolkit.org/ort/docs/getting-started/installation) as alternative.*
 - C) The [ORT-report](https://oss-review-toolkit.org/ort/docs/getting-started/tutorial#7-generate-a-report) provides already transparency about all dependencies and findings
 - D) The [ORT-reporter](https://oss-review-toolkit.org/ort/docs/tools/reporter) generates the SBOM in CycloneDX and SPDX for further processing
 
 Concrete example used for: 
 - A) https://github.com/Open-Source-Compliance/JAVA_Maven-Dummy/tree/demo/case_001_vulnerability => adds a vulnerable dependency
-- B) WIP => will use a Sandbox Org in the public [OCTETT](https://occtet.eu/) Test-Server
-- C) WIP => the report will be publicly available in the public [OCTETT](https://occtet.eu/) Test-Server
+- B) https://ort-server.occtet.eu/organizations/4 simulatiing a dummy organization
+- C) https://ort-server.occtet.eu/organizations/4/products/2/repositories/3/runs/7/reports showing the report-section 
+- D) https://ort-server.occtet.eu/organizations/4/products/2/repositories/3/runs/7/sbom showing the sbom-section
 
 # Part 3 - Manufacturer
 - A) the simulation uses the SBOM provided in 2 D) as input to simulate a delivery from a supplier    
 *Hint: The delivery of Software/Binaries is actively ignored for simplification.*
-- B) the simulation uses a local [OWASP DependencyTrack](https://dependencytrack.org/#download)-installation as Vulnerability Monitoring Dashboard for incoming supplier SBOMs. A project is created and the CycloneDX SBOM is uploaded. The analysis provides transparency about all dependencies and findings.
+- B) the simulation uses an instance of [Eclipse sw360](https://eclipse.dev/sw360/docs/deployment/) for tracking all Software Components and the SBOM is imported
 - C) Potential extensions:
-    - the simulation uses an instance of [Eclipse sw360](https://eclipse.dev/sw360/docs/deployment/) for tracking all Software Components
     - the simulation uses an instance of [Eclipse disuko](https://projects.eclipse.org/projects/technology.disuko) as SBOM portal 
+
+*Hint: You can vary the simulation by using a local [OWASP DependencyTrack](https://dependencytrack.org/#download)-installation as Vulnerability Monitoring Dashboard for incoming supplier SBOMs. A project is created and the CycloneDX SBOM is uploaded. The analysis provides transparency about all dependencies and findings.*
 
 Concrete example used for: 
 - A) see 2 D)
-- B) WIP => the SBOMs will be publicly available in a public sw360 test-server
+- B) https://sw360.heliocastro.info/projects/detail/4ea0e02ac73e22fd991d15154d006e0b
+- C) WIP
+
