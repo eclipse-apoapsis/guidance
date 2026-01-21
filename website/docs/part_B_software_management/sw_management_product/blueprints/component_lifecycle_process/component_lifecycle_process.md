@@ -32,7 +32,7 @@ Ensuring transparent open source software usage by fulfilling the requirements o
 
 # Process Description
 
-![Process High Level](./process_high_level.jpg)  
+![Process High Level](../process_high_level.jpg)  
 
 The Software Component Lifecycle consist of four elements. The distribution check is the major gateway to ensure that only qualified software is released. The other elements only support this effort.
 
@@ -84,7 +84,7 @@ A Distribution Check requires the successful completion of the following tasks a
 
 The following picture gives and overview of the tasks and their sequence:
 
-![Process Sequences](./process_sequences.jpg)
+![Process Sequences](../process_sequences.jpg)
 
 # Deviations
 This is the standard process to ensure open source compliance in the organization. However, because of the variety of activities of the organization we also have various special situations where other approaches might be more efficient. Therefore it is possible to design a different process for fulfilling the requirements of the organization's Open Source Policy. The Non-standard template (attachment A2.4) need to be used.
@@ -95,7 +95,7 @@ The Open Source Management Representative must be consulted for the design of a 
 
 |Attachment|Description|
 |:------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| A1 Integration Check | HowTo perform the Integration Check for Open Source Components |
+| [A1 Integration Check](A1_integration_check/a1_integration_check.md) | HowTo perform the Integration Check for Open Source Components |
 | A2 Development Monitoring | Description of generic Open Source Management Review steps as preparation for the Distribution Check. Description of standard scheme to describe existing standard Open Source Management Review setups. |
 | A2.1 Standard Open Source Management Review - Reference Tooling | Standard Open Source Management Review using the Open Source reference tooling described based on standard scheme. |
 | A2.2 Standard Open Source Management Review - Trusted Package Metadatabase | General description for Standard Open Source Management Reviews using "matching"-mechanisms and trusted package metadatabases described based on standard scheme.|
