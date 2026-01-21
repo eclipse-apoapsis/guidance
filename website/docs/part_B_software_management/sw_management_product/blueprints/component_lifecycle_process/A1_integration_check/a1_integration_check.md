@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: A1 Integration Approval
+title: A1 Integration Check
 ---
 
 <!-- 
@@ -19,22 +19,22 @@ under the License.
 SPDX-License-Identifier: CC-BY-4.0 
 -->
 
-# A1 Integration Approval
+# A1 Integration Check
 
-This attachment documents the Integration Approval as referenced in the [Component Lifecycle Process](../index.md).
+This attachment documents the Integration Check as referenced in the [Software Component Lifecycle Process](../component_lifecycle_process.md).
 
 ## Motivation
 
 Organizations across industries are currently using thousands of OSS components, including in their products, with open source penetration in vertical software stacks reaching up to 85% of the overall software used[^1]. Therefore, it is important to use the right OSS components in the right way.
 
-The integration approval helps the development team[^2] to:
+The integration check helps the development team[^2] to:
 
 1. Introduce minimal shared standard for component evaluation and its documentation.
 2. Increase visibility and homogeneity in the team's portfolio
 3. Increase traceability of technology decisions.
 4. Prevent wasted effort for unacceptable components by performing early checks.
 
-The Integration Approval may include a check against an allow-list/deny-list or Open Source Usage policy.
+The Integration Check may include a check against an allow-list/deny-list or Open Source Usage policy.
 
 In case of customer projects, the allow-list/deny-list might also be provided from customer side.
 

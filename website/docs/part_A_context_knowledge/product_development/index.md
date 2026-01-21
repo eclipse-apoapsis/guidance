@@ -23,7 +23,7 @@ SPDX-License-Identifier: CC-BY-4.0
 *to describe the development phase in more detail*
 
 - Component Lifecycle Phases
-    - [Integration](A1_integration_approval/a1_integration_approval.md)
+    - Integration
     - Development
     - Distribution
     - Maintenance
