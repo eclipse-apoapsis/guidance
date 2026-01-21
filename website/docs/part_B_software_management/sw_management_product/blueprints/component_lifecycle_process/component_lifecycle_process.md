@@ -107,6 +107,6 @@ The Open Source Management Representative must be consulted for the design of a 
 | A5.1 OSS Disclosure Document | Description of the OSS Disclosure Document and Reference to Best Practices. |
 | A5.2 OSS Source Code Bundle | Description of the OSS Source Code Bundle and Reference to Best Practices. |
 | [A6 Distribution Check and Quality Gate](A6_distribution_check_and_quality_gate/a6_distribution_check_and_quality_gate.md) | Open Source Management specific check questions that need to be part of the Quality Gate Checklist. |
-| A7 Maintenance Monitoring | Description of the Maintenance Monitoring Concept and Reference to Best Practices. |
+| [A7 Maintenance Monitoring](A7_maintenance_monitoring/a7_maintenance_monitoring.md) | Description of the Maintenance Monitoring Concept and Reference to Best Practices. |
 | A8 Open Source Metadatabase | Description of the Open Source Metadatabase concept and Reference to Best Practices. |
 | A9 Open Source Usage Policies | Set of default Open Source Usage policies for specific setups and Reference to Best Practices. |
