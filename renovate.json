@@ -1,12 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended",
-    "helpers:pinGitHubActionDigestsToSemver",
-    ":semanticCommitScopeDisabled",
-    ":semanticCommitTypeAll(deps)"
-  ],
-  "dependencyDashboard": false,
-  "labels": ["dependencies"],
-  "prHourlyLimit": 5
+    "github>eclipse-apoapsis/renovate"
+  ]
 }
