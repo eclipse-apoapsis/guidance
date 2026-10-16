@@ -35,33 +35,6 @@ function HomepageHeader() {
   );
 }
 
-function EclipseIncubation() {
-  return (
-    <section className={clsx('hero', styles.heroBanner)}>
-      <div className='container'>
-        <div className={styles.incubation}>
-          <img
-            src='https://projects.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_projects/images/project_state/incubating.png'
-            alt='Incubation'
-            className={styles.incubationImage}
-          />
-          <p className='hero__subtitle'>
-            The{' '}
-            <a href='https://projects.eclipse.org/projects/technology.apoapsis'>
-              Eclipse Apoapsis
-            </a>{' '}
-            project is currently in the{' '}
-            <a href='https://www.eclipse.org/projects/handbook/#incubation'>
-              incubation
-            </a>{' '}
-            phase.
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -71,7 +44,6 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <EclipseIncubation />
       </main>
     </Layout>
   );
