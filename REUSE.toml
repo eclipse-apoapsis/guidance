@@ -19,22 +19,22 @@ SPDX-FileCopyrightText = "Copyright (C) 2025 Contributors to the Eclipse Foundat
 SPDX-License-Identifier = "CC-BY-4.0"
 
 [[annotations]]
-path = "**/package.json"
-SPDX-FileCopyrightText = "Copyright (C) 2025 Contributors to the Eclipse Foundation"
-SPDX-License-Identifier = "CC-BY-4.0"
-
-[[annotations]]
-path = "**/package-lock.json"
-SPDX-FileCopyrightText = "Copyright (C) 2025 Contributors to the Eclipse Foundation"
-SPDX-License-Identifier = "CC-BY-4.0"
-
-[[annotations]]
 path = "renovate.json"
 SPDX-FileCopyrightText = "Copyright (C) 2025 Contributors to the Eclipse Foundation"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 [[annotations]]
 path = "README.md"
+SPDX-FileCopyrightText = "Copyright (C) 2025 Contributors to the Eclipse Foundation"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "website/package.json"
+SPDX-FileCopyrightText = "Copyright (C) 2025 Contributors to the Eclipse Foundation"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "website/pnpm-*.yaml"
 SPDX-FileCopyrightText = "Copyright (C) 2025 Contributors to the Eclipse Foundation"
 SPDX-License-Identifier = "CC-BY-4.0"
 
