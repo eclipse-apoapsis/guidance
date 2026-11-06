@@ -1,2 +1,5 @@
 allowBuilds:
   core-js: true
+
+# Only resolve versions that were published at least 3 days ago.
+minimumReleaseAge: 4320
